@@ -57,7 +57,7 @@ nav {
     padding: .5em .5em .5em;
     float: left;
     width: 160px;
-    padding: 0;
+    position: fixed;
     font-size: 1.2em;
 }
 
@@ -71,10 +71,6 @@ nav a:visited {
 
 nav a:hover {
     color: #A52A2A;
-}
-
-nav {
-    position: fixed;
 }
 
 nav ul {

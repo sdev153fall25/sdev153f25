@@ -146,6 +146,32 @@ section {
     height: 300px;
 }
 
+table {
+        margin: auto;
+        border: 1px solid #3399CC;
+        width: 90%; 
+        text-align: center;
+		border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 5px;
+    border: 1px solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #DFEDF8;
+}
+
 /* Medium Display */
 @media (min-width: 600px) {
     h1 {
